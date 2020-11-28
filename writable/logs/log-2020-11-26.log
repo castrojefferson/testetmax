@@ -1,0 +1,948 @@
+CRITICAL - 2020-11-26 08:34:40 --> Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]])
+#0 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): Exception->__construct(Array)
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 08:43:21 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:43:21 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:43:47 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:43:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:44:56 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:44:56 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:47:59 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type integer or null, array given, called in /storage/ssd4/266/15513266/app/Controllers/Usuario.php on line 15
+#0 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->get(Array)
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 08:48:42 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:48:42 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:49:27 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:49:27 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:49:50 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:49:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:52:52 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:52:52 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:56:09 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:56:09 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:57:17 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:57:17 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:57:35 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:57:35 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:57:56 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:57:56 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:58:34 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 08:58:34 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 08:59:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 08:59:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 08:59:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 08:59:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:00:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:03:11 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:03:11 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:03:36 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:03:36 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:05:05 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:05:05 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:06:38 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:06:38 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:07:49 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:07:49 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:07:51 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:07:51 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:11:29 --> Call to a member function query() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:11:55 --> Call to a member function query() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:12:19 --> Call to a member function query() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:12:32 --> Call to a member function query() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:12:50 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(6): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-26 09:12:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:15:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:16:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:16:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:17:38 --> Call to undefined function App\Controllers\get()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:17:50 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(7): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 09:17:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:17:51 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(7): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 09:17:51 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 09:18:00 --> Call to undefined function App\Controllers\all()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:18:18 --> Call to undefined function App\Controllers\all()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:18:20 --> Call to undefined function App\Controllers\where()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 09:18:29 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in /storage/ssd4/266/15513266/app/Controllers/Usuario.php on line 7 and at least 1 expected
+#0 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(7): CodeIgniter\Database\BaseBuilder->where()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 09:19:24 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in /storage/ssd4/266/15513266/app/Controllers/Usuario.php on line 10 and at least 1 expected
+#0 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(10): CodeIgniter\Database\BaseBuilder->where()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 09:19:52 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 09:19:52 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:09:50 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:09:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:18:26 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:18:26 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:19:39 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:19:39 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:19:59 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:19:59 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:20:15 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:20:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:20:32 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:20:32 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:20:44 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(75): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:20:44 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:22:06 --> Call to a member function table() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 10:22:49 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:22:49 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:22:50 --> Unable to connect to the database.
+#0 /storage/ssd4/266/15513266/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd4/266/15513266/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 10:22:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/storage/ssd4/2...', 100, Array)
+#1 /storage/ssd4/266/15513266/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(308): include('/storage/ssd4/2...')
+#3 /storage/ssd4/266/15513266/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 10:37:07 --> Call to undefined function App\Controllers\get()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 10:38:10 --> Call to undefined function App\Controllers\select()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 10:39:10 --> Call to a member function table() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 10:42:09 --> syntax error, unexpected ')'
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 10:44:02 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 10:44:19 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type integer or null, array given, called in /storage/ssd4/266/15513266/app/Controllers/Usuario.php on line 16
+#0 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(16): CodeIgniter\Database\BaseBuilder->get(Array)
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 11:50:20 --> Call to undefined function App\Controllers\getResult()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 11:51:18 --> Call to undefined function App\Controllers\getResult()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 11:51:37 --> Call to undefined function App\Controllers\getResultArray()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:00:26 --> Call to a member function helper() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:01:32 --> Call to a member function helper() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:01:33 --> Call to a member function helper() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:19:11 --> Call to a member function set() on array
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:19:51 --> Call to a member function set() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:21:26 --> Call to a member function set() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:22:19 --> Call to a member function set() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-26 13:32:45 --> syntax error, unexpected ';'
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(3): spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(365): require_once('/storage/ssd4/2...')
+#5 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#6 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#10 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#11 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-11-26 13:32:46 --> syntax error, unexpected ';'
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(3): spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(365): require_once('/storage/ssd4/2...')
+#5 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#6 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#10 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#11 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-11-26 13:32:51 --> syntax error, unexpected ';'
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(3): spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(365): require_once('/storage/ssd4/2...')
+#5 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#6 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#10 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#11 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-11-26 14:28:21 --> Call to undefined method CodeIgniter\View\View::estaLogado()
+#0 /storage/ssd4/266/15513266/system/View/View.php(246): include()
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('base/header', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Home.php(7): view('base/header')
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 14:40:57 --> Use of undefined constant esta_logado - assumed 'esta_logado' (this will throw an Error in a future version of PHP)
+#0 /storage/ssd4/266/15513266/app/Views/base/header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/storage/ssd4/2...', 13, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('base/header', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Home.php(7): view('base/header')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 14:40:58 --> Use of undefined constant esta_logado - assumed 'esta_logado' (this will throw an Error in a future version of PHP)
+#0 /storage/ssd4/266/15513266/app/Views/base/header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/storage/ssd4/2...', 13, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('base/header', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Home.php(7): view('base/header')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 14:41:00 --> Use of undefined constant esta_logado - assumed 'esta_logado' (this will throw an Error in a future version of PHP)
+#0 /storage/ssd4/266/15513266/app/Views/base/header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/storage/ssd4/2...', 13, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('base/header', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Home.php(7): view('base/header')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 14:41:44 --> Use of undefined constant esta_logado - assumed 'esta_logado' (this will throw an Error in a future version of PHP)
+#0 /storage/ssd4/266/15513266/app/Views/base/header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/storage/ssd4/2...', 13, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('base/header', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Home.php(7): view('base/header')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 14:41:46 --> Use of undefined constant esta_logado - assumed 'esta_logado' (this will throw an Error in a future version of PHP)
+#0 /storage/ssd4/266/15513266/app/Views/base/header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/storage/ssd4/2...', 13, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('base/header', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Home.php(7): view('base/header')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

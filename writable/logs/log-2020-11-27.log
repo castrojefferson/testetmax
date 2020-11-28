@@ -1,0 +1,48 @@
+CRITICAL - 2020-11-27 05:02:37 --> Invalid file: formulario/livro.php
+#0 /storage/ssd4/266/15513266/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario/livr...')
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('formulario/livr...', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Livro.php(47): view('formulario/livr...')
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Livro->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 05:02:39 --> Invalid file: formulario/livro.php
+#0 /storage/ssd4/266/15513266/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario/livr...')
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('formulario/livr...', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Livro.php(47): view('formulario/livr...')
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Livro->cadastrar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 05:19:56 --> Invalid argument supplied for foreach()
+#0 /storage/ssd4/266/15513266/app/Views/listar/livro.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/storage/ssd4/2...', 12, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('listar/livro', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Livro.php(18): view('listar/livro', Array)
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Livro->listar()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 05:22:06 --> Object of class stdClass could not be converted to string
+#0 /storage/ssd4/266/15513266/app/Views/listar/livro.php(14): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/storage/ssd4/2...', 14, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('listar/livro', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Livro.php(18): view('listar/livro', Array)
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Livro->listar()
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 05:52:06 --> Use of undefined constant titulo - assumed 'titulo' (this will throw an Error in a future version of PHP)
+#0 /storage/ssd4/266/15513266/app/Views/formulario/livro_alterar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/storage/ssd4/2...', 3, Array)
+#1 /storage/ssd4/266/15513266/system/View/View.php(246): include('/storage/ssd4/2...')
+#2 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('formulario/livr...', Array, true)
+#3 /storage/ssd4/266/15513266/app/Controllers/Livro.php(64): view('formulario/livr...', Array)
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Livro->alterar('1')
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,71 @@
+CRITICAL - 2020-11-28 12:20:01 --> Invalid file: listar/usuarios.php
+#0 /storage/ssd4/266/15513266/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar/usuarios...')
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('listar/usuarios', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Usuarios.php(9): view('listar/usuarios', Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuarios->listar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 12:27:40 --> Invalid file: listar/reservas.php
+#0 /storage/ssd4/266/15513266/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar/reservas...')
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('listar/reservas', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Reserva.php(9): view('listar/reservas', Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->listar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 12:30:47 --> Invalid file: listar/reservas.php
+#0 /storage/ssd4/266/15513266/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar/reservas...')
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('listar/reservas', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Reserva.php(9): view('listar/reservas', Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->listar()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 12:39:18 --> Call to a member function getResult() on null
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->listar()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-28 12:50:28 --> Call to undefined function App\Controllers\getRowArray()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->reservar('1')
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-28 12:50:29 --> Call to undefined function App\Controllers\getRowArray()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->reservar('1')
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-28 12:52:03 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->reservar('1')
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-28 12:52:04 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->reservar('1')
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-28 13:11:30 --> Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]])
+#0 /storage/ssd4/266/15513266/app/Controllers/Reserva.php(21): Exception->__construct(Array)
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->reservar('1')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-28 13:18:19 --> Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]])
+#0 /storage/ssd4/266/15513266/app/Controllers/Livro.php(54): Exception->__construct(Array)
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Livro->alterar('2')
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
