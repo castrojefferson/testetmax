@@ -4,12 +4,20 @@ class Reserva extends BaseController {
 	public function listar() {
         $this->requerLogin();
 		$select = $this->db->table('Livro')->getWhere(['reservado_por'=>null]);
-    	echo view('base/header', ['esta_logado'=>$_SESSION['usuario']['esta_logado']]);
+    	$this->echoHeader();
     	echo "<h3>Livros</h3>";
     	echo view('listar/reserva', ['livros'=>$select->getResult()]);
     	echo view('base/footer');
 	}
 
+	public function reservados() {
+        $this->requerLogin();
+		$select = $this->db->table('Livro')->getWhere(['reservado_por'=>false]);
+    	$this->echoHeader();
+    	echo "<h3>Livros</h3>";
+    	echo view('listar/livro', ['livros'=>$select->getResult()]);
+    	echo view('base/footer');
+	}
 
 	public function reservar($id) {
         $this->requerLogin();
@@ -21,13 +29,13 @@ class Reserva extends BaseController {
 				if (!$update) {
 				    die($this->db->error());
 				}
-    				header('Location: /livros/');
+    				header('Location: /reservas/');
 				exit;
 			} catch (\Exception $e) {
 				echo "Erro ao cadastrar";
 			}
     	}
-    	echo view('base/header', ['esta_logado'=>$_SESSION['usuario']['esta_logado']]);
+    	$this->echoHeader();
 		echo "<h3>Reservar Livro ".$livro['titulo']."</h3>";
 		echo view('confirmar/reserva');
 		echo view('base/footer');
@@ -36,6 +44,7 @@ class Reserva extends BaseController {
 
 	public function alterar($id) {
         $this->requerLogin();
+        $this->requerAdmin();
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				if (!$_POST['titulo']) {
 					die('Falta titulo');
@@ -52,7 +61,7 @@ class Reserva extends BaseController {
     	} else {
 				$select = $this->db->table('Livro')->getWhere(['id'=>$id])->getRowArray();
     	}
-    	echo view('base/header', ['esta_logado'=>$_SESSION['usuario']['esta_logado']]);
+    	$this->echoHeader();
 		echo "<h3>Editar Livro</h3>";
 		echo view('formulario/livro_alterar', ['livro'=>$select]);
 		echo view('base/footer');

@@ -57,6 +57,14 @@ class BaseController extends Controller
 	        exit;
 	    }
 	}
+	public function requerAdmin($redirectNaoLogado=null) {
+	    if($_SESSION['usuario']['grupo'] == 1) {
+	        return true;
+	    } else {
+	        echo "Usuario não autorizado, entre como administrador";
+	        exit;
+	    }
+	}
 	public function estaLogado() {
 	    if($_SESSION['usuario']['esta_logado']) {
 	        return true;
@@ -66,5 +74,16 @@ class BaseController extends Controller
 	}
 	public function getUserEmail() {
 	    return $_SESSION['usuario']['email'];
+	}
+	public function eAdministrador() {
+	    if ($_SESSION['usuario']['grupo'] == 1) {
+	        return '1';
+	    } else {
+    	    return '0';
+	        
+	    }
+	}
+	public function echoHeader() {
+	    echo view('base/header', ['esta_logado'=>$_SESSION['usuario']['esta_logado'], 'e_administrador'=>$this->eAdministrador()]);
 	}
 }

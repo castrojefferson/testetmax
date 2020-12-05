@@ -33,14 +33,17 @@ $routes->setAutoRoute(true);
 $routes->add('/', 'Home::index');
 $routes->add('/index', 'Home::index');
 $routes->add("/usuario/cadastrar", 'Usuario::cadastrar');
+$routes->add("/usuario/cadastrar/admin", 'Usuario::cadastrarAdmin');
 $routes->add("/usuario/login", 'Usuario::login');
 $routes->add("/usuario/logout", 'Usuario::logout');
 $routes->add("/usuarios", 'Usuarios::listar');
+$routes->add("/usuario/editar", 'Usuario::editar');
 $routes->add("/livros", 'Livro::menu');
 $routes->add("/livros/listar", 'Livro::listar');
 $routes->add("/livros/cadastrar", 'Livro::cadastrar');
 $routes->add('/livros/editar/(:num)', 'Livro::alterar/$1');
 $routes->add('/reservas/reservar/(:num)', 'Reserva::reservar/$1');
+$routes->add('/reservas/reservados', 'Reserva::reservados');
 $routes->add('/reservas', 'Reserva::listar');
 
 /**

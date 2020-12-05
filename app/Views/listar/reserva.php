@@ -20,6 +20,9 @@
                     <td><?php echo $livro->autor ?></td>
                   </tr>
               <?php } ?>
+              <?php if(empty($livros)) { ?>
+                    <td colspan="5"><strong>Não há nenhum livro para reservar</strong></td>
+              <?php } ?>
         </tbody>
     </table>
         

@@ -1,0 +1,74 @@
+CRITICAL - 2020-12-05 09:17:44 --> Call to undefined function App\Controllers\now()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-05 09:18:11 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/storage/ssd4/2...', 9, Array)
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(9): date()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 09:18:13 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/storage/ssd4/2...', 9, Array)
+#1 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(9): date()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-05 09:30:26 --> Call to undefined function App\Controllers\datetime()
+#0 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->login()
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-05 12:08:41 --> Invalid file: listar/livros.php
+#0 /storage/ssd4/266/15513266/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listar/livros.p...')
+#1 /storage/ssd4/266/15513266/system/Common.php(1119): CodeIgniter\View\View->render('listar/livros', Array, true)
+#2 /storage/ssd4/266/15513266/app/Controllers/Reserva.php(18): view('listar/livros', Array)
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Reserva->reservados()
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reserva))
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-05 13:06:04 --> Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]])
+#0 /storage/ssd4/266/15513266/app/Controllers/Usuario.php(116): Exception->__construct(Array)
+#1 /storage/ssd4/266/15513266/system/CodeIgniter.php(918): App\Controllers\Usuario->editar()
+#2 /storage/ssd4/266/15513266/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-05 13:31:25 --> syntax error, unexpected '('
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 13:31:37 --> syntax error, unexpected '('
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-05 13:31:39 --> syntax error, unexpected '('
+#0 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/storage/ssd4/2...')
+#1 /storage/ssd4/266/15513266/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/266/15513266/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/266/15513266/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/266/15513266/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/266/15513266/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

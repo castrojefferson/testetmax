@@ -14,5 +14,4 @@
     <p>Conheça um pouco mais sobre meus projetos <strong><a href="http://meucurriculocombr.herokuapp.com/curriculo/1/" style="color:black;text-decoration: underline;">Clicando Aqui</a></strong></p>
     <p>O Site acima citado, foi desenvolvido em Django com Python 3</p>
   </div>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
 </footer>

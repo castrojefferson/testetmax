@@ -8,6 +8,9 @@
   <label>Autor
     <input type="text" placeholder="Autor" name="autor" required maxlength="45" value="<?php echo $livro['autor'] ?>">
   </label>
+  <label>Reservado Por
+    <input type="text" placeholder="Não está reservado" name="reservado_por" maxlength="45" value="<?php echo $livro['reservado_por'] ?>">
+  </label>
   <button class="btn waves-effect waves-light green" type="submit">
     <i class="material-icons right">send</i>
   </button>

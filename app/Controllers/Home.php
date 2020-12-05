@@ -4,7 +4,7 @@ class Home extends BaseController
 {
 	public function index()
 	{
-    	echo view('base/header', ['esta_logado'=>$_SESSION['usuario']['esta_logado']]);
+    	$this->echoHeader();
 		echo view('index');
 		echo view('base/footer');
 	}

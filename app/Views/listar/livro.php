@@ -22,6 +22,9 @@
                     <td><?php echo $livro->reservado_por ?></td>
                   </tr>
               <?php } ?>
+              <?php if(empty($livros)) { ?>
+                    <td colspan="5"><strong>Não há nenhum livro reservado</strong></td>
+              <?php } ?>
         </tbody>
     </table>
         
